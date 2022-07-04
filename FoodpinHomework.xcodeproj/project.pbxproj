@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A9EB88B28729AB300D2D34F /* FoodpinHomeworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9EB88A28729AB300D2D34F /* FoodpinHomeworkApp.swift */; };
-		0A9EB88D28729AB300D2D34F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9EB88C28729AB300D2D34F /* ContentView.swift */; };
+		0A9EB88D28729AB300D2D34F /* RestaurantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9EB88C28729AB300D2D34F /* RestaurantListView.swift */; };
 		0A9EB88F28729AB400D2D34F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9EB88E28729AB400D2D34F /* Assets.xcassets */; };
 		0A9EB89228729AB400D2D34F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9EB89128729AB400D2D34F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		0A9EB88728729AB300D2D34F /* FoodpinHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodpinHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9EB88A28729AB300D2D34F /* FoodpinHomeworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodpinHomeworkApp.swift; sourceTree = "<group>"; };
-		0A9EB88C28729AB300D2D34F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0A9EB88C28729AB300D2D34F /* RestaurantListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListView.swift; sourceTree = "<group>"; };
 		0A9EB88E28729AB400D2D34F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A9EB89128729AB400D2D34F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				0A9EB88A28729AB300D2D34F /* FoodpinHomeworkApp.swift */,
-				0A9EB88C28729AB300D2D34F /* ContentView.swift */,
+				0A9EB88C28729AB300D2D34F /* RestaurantListView.swift */,
 				0A9EB88E28729AB400D2D34F /* Assets.xcassets */,
 				0A9EB89028729AB400D2D34F /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A9EB88D28729AB300D2D34F /* ContentView.swift in Sources */,
+				0A9EB88D28729AB300D2D34F /* RestaurantListView.swift in Sources */,
 				0A9EB88B28729AB300D2D34F /* FoodpinHomeworkApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
