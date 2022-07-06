@@ -11,6 +11,9 @@
 		0A9EB88D28729AB300D2D34F /* RestaurantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9EB88C28729AB300D2D34F /* RestaurantListView.swift */; };
 		0A9EB88F28729AB400D2D34F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9EB88E28729AB400D2D34F /* Assets.xcassets */; };
 		0A9EB89228729AB400D2D34F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9EB89128729AB400D2D34F /* Preview Assets.xcassets */; };
+		0A9EB8992873D2DC00D2D34F /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9EB8982873D2DC00D2D34F /* Restaurant.swift */; };
+		0A9EB89E287411AB00D2D34F /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9EB89D287411AB00D2D34F /* ActivityView.swift */; };
+		0A9EB8A22874365000D2D34F /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9EB8A12874365000D2D34F /* RestaurantDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		0A9EB88C28729AB300D2D34F /* RestaurantListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListView.swift; sourceTree = "<group>"; };
 		0A9EB88E28729AB400D2D34F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A9EB89128729AB400D2D34F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0A9EB8982873D2DC00D2D34F /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		0A9EB89D287411AB00D2D34F /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		0A9EB8A12874365000D2D34F /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,9 @@
 		0A9EB88928729AB300D2D34F /* FoodpinHomework */ = {
 			isa = PBXGroup;
 			children = (
+				0A9EB89C2873DEF400D2D34F /* View */,
+				0A9EB89B2873DEE600D2D34F /* Model */,
 				0A9EB88A28729AB300D2D34F /* FoodpinHomeworkApp.swift */,
-				0A9EB88C28729AB300D2D34F /* RestaurantListView.swift */,
 				0A9EB88E28729AB400D2D34F /* Assets.xcassets */,
 				0A9EB89028729AB400D2D34F /* Preview Content */,
 			);
@@ -65,6 +72,24 @@
 				0A9EB89128729AB400D2D34F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0A9EB89B2873DEE600D2D34F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A9EB8982873D2DC00D2D34F /* Restaurant.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A9EB89C2873DEF400D2D34F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A9EB88C28729AB300D2D34F /* RestaurantListView.swift */,
+				0A9EB89D287411AB00D2D34F /* ActivityView.swift */,
+				0A9EB8A12874365000D2D34F /* RestaurantDetailView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +163,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A9EB88D28729AB300D2D34F /* RestaurantListView.swift in Sources */,
+				0A9EB8A22874365000D2D34F /* RestaurantDetailView.swift in Sources */,
+				0A9EB89E287411AB00D2D34F /* ActivityView.swift in Sources */,
 				0A9EB88B28729AB300D2D34F /* FoodpinHomeworkApp.swift in Sources */,
+				0A9EB8992873D2DC00D2D34F /* Restaurant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FoodpinHomework/Preview Content\"";
+				DEVELOPMENT_TEAM = 86DA5PSLD6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +324,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FoodpinHomework/Preview Content\"";
+				DEVELOPMENT_TEAM = 86DA5PSLD6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
