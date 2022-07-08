@@ -10,6 +10,8 @@
 		0A7A9E7C28755D090028A243 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A9E7B28755D090028A243 /* UIColor+Ext.swift */; };
 		0A7A9E7E287684EB0028A243 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A9E7D287684EB0028A243 /* MapView.swift */; };
 		0A7A9E802876BEE30028A243 /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A9E7F2876BEE30028A243 /* ReviewView.swift */; };
+		0A7A9E822877D1320028A243 /* NewRestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A9E812877D1320028A243 /* NewRestaurantView.swift */; };
+		0A7A9E85287825590028A243 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A9E84287825590028A243 /* ImagePicker.swift */; };
 		0A9EB88B28729AB300D2D34F /* FoodpinHomeworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9EB88A28729AB300D2D34F /* FoodpinHomeworkApp.swift */; };
 		0A9EB88D28729AB300D2D34F /* RestaurantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9EB88C28729AB300D2D34F /* RestaurantListView.swift */; };
 		0A9EB88F28729AB400D2D34F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9EB88E28729AB400D2D34F /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 		0A7A9E7B28755D090028A243 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		0A7A9E7D287684EB0028A243 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		0A7A9E7F2876BEE30028A243 /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
+		0A7A9E812877D1320028A243 /* NewRestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRestaurantView.swift; sourceTree = "<group>"; };
+		0A7A9E84287825590028A243 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		0A9EB88728729AB300D2D34F /* FoodpinHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodpinHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9EB88A28729AB300D2D34F /* FoodpinHomeworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodpinHomeworkApp.swift; sourceTree = "<group>"; };
 		0A9EB88C28729AB300D2D34F /* RestaurantListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		0A7A9E83287825410028A243 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				0A7A9E84287825590028A243 /* ImagePicker.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		0A9EB87E28729AB300D2D34F = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +84,7 @@
 		0A9EB88928729AB300D2D34F /* FoodpinHomework */ = {
 			isa = PBXGroup;
 			children = (
+				0A7A9E83287825410028A243 /* Util */,
 				0A7A9E7A28755CE20028A243 /* Extensions */,
 				0A7A9E79287558D80028A243 /* Info.plist */,
 				0A9EB89C2873DEF400D2D34F /* View */,
@@ -107,6 +120,7 @@
 				0A9EB8A12874365000D2D34F /* RestaurantDetailView.swift */,
 				0A7A9E7D287684EB0028A243 /* MapView.swift */,
 				0A7A9E7F2876BEE30028A243 /* ReviewView.swift */,
+				0A7A9E812877D1320028A243 /* NewRestaurantView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -186,7 +200,9 @@
 				0A9EB88D28729AB300D2D34F /* RestaurantListView.swift in Sources */,
 				0A9EB8A22874365000D2D34F /* RestaurantDetailView.swift in Sources */,
 				0A9EB89E287411AB00D2D34F /* ActivityView.swift in Sources */,
+				0A7A9E822877D1320028A243 /* NewRestaurantView.swift in Sources */,
 				0A7A9E7C28755D090028A243 /* UIColor+Ext.swift in Sources */,
+				0A7A9E85287825590028A243 /* ImagePicker.swift in Sources */,
 				0A9EB88B28729AB300D2D34F /* FoodpinHomeworkApp.swift in Sources */,
 				0A9EB8992873D2DC00D2D34F /* Restaurant.swift in Sources */,
 			);

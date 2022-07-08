@@ -45,8 +45,4 @@ class Restaurant: ObservableObject {
         self.isFavorite = isFavorite
         self.rating = rating
     }
-    
-    init() {
-        self.init(name: "", type: "", location: "",  phone: "", description: "", image: "", isFavorite: false)
-    }
 }
