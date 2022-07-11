@@ -18,6 +18,7 @@ struct NewRestaurantView: View {
         }
     }
     
+    @Environment(\.dismiss) var dismiss
     @State var restaurantName = ""
     @State private var restaurantImage = UIImage(named: "newphoto")!
     @State private var showPhotoOptions = false
@@ -50,6 +51,22 @@ struct NewRestaurantView: View {
             }
             // Navigation bar configuration
             .navigationTitle("New Restaurant")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button(action: {
+                        dismiss()
+                    }) {
+                        Image(systemName: "xmark")
+                    }
+                    .accentColor(.primary)
+                }
+                
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Text("Save")
+                        .font(.headline)
+                        .foregroundColor(Color("NavigationBarTitle"))
+                }
+            }
         }
         .actionSheet(isPresented: $showPhotoOptions) {
             ActionSheet(title: Text("Choose your photo source"), message: nil, buttons: [
